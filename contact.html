@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Dancing+Script|Great+Vibes|Sacramento&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/TLogo_yellow.png">
+
+    <title>tanisha.photos</title>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        Logo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html"><i class="fas fa-user-alt"></i> About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html"><i class="fas fa-th"></i> Portfolio</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!--===============================
+* Hintergrundbild
+================================-->
+<div class="bg4">
+    <div class="module-title">
+        <h2 class="justify-text-left">CONTACT</h2>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <!--===============================
+        * Content überem Bild (module-center)
+        ================================-->
+        <div class="col-12">
+            <div class="row">
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row justify-text-center" id="contactme">
+        <div class="col-12">
+            <h3>I'd love to hear from you!</h3>
+        </div>
+    </div>
+</div>
+<!--<div class="h3contact">
+    <h3>I'd love to hear from you!</h3>
+</div>-->
+
+<form action="" class="main-formular needs-validation" novalidate>
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                <label for="firstname">Firstname</label>
+                <input type="text" name="firstname" id="firstname" class="form-control" required>
+                <div class="invalid-feedback">Please enter your first name.</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+                <label for="lastname">Lastname</label>
+                <input type="text" name="lastname" id="lastname" class="form-control"  required>
+                <div class="invalid-feedback">Please enter your last name.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email" class="form-control" required>
+        <div class="invalid-feedback">Please enter a valid Email.</div>
+    </div>
+
+    <div class="form-group">
+        <label for="Subject">Subject</label>
+        <input type="text" name="Subject" id="Subject" class="form-control" required>
+        <div class="invalid-feedback">Please enter a subject.</div>
+    </div>
+
+    <div class="form-group">
+        <label for="Message">Message</label>
+        <input type="text" name="Message" id="Message" class="form-control" required>
+        <div class="invalid-feedback">Please enter your message.</div>
+    </div>
+
+    <button class="btn btn-secondary" type="submit">Send</button>
+
+</form>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+    var form = document.querySelector('.needs-validation');
+
+    form.addEventListener('submit', function (event) {
+        if (form.checkValidity() ===false) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        form.classList.add('was-validated')
+    })
+</script>
+
+<footer class="page-footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-copyright text-center">Tanisha Meier</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-copyright text-center">© All Rights Reserved. 2019</div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
