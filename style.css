@@ -240,6 +240,11 @@ h4 {
     margin-bottom: 15px;
 
 }
+h5 {
+    font-size: 15pt;
+    font-family: Lato;
+    text-align: center;
+}
 
 p {
     font-family: Lato;
@@ -247,11 +252,15 @@ p {
     text-align: justify;
 }
 
-h5 {
-    font-size: 15pt;
-    font-family: Lato;
-    text-align: center;
+.parallaxtext{
+    color: white;
 }
+
+.untertext {
+    font-size: 30pt;
+    color: white;
+}
+
 /*========ABOUTSEITE STYLING=================
 ==========================================*/
 #aboutmetitle {
