@@ -2,6 +2,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .module-center {
@@ -105,7 +106,7 @@ body, html {
 /*========img gallery=================
 ==========================================*/
 #imagegallery_1 {
-      margin-top: 20%;
+      margin-top: 5%;
   }
 
 #imagegallery_2 {
@@ -208,7 +209,11 @@ nav {
     padding-right: 1rem;
     padding-left: 1rem;
 }
-
+/*
+.navbar-brand {
+    position: absolute;
+}
+/*
 /*========ÜBERSCHRIFTEN=================
 ==========================================*/
 h1 {
@@ -435,4 +440,20 @@ h4.mx-auto {
 
 .footer-copyright {
     color: white;
+}
+
+/*========SECOND NAV=================
+==========================================*/
+.list-horz a {
+    display: inline-block;
+    margin: 0 30px;
+    text-align: center;
+    color: #3c3c3b;
+    padding: 2px 7px;
+    border-bottom: solid 1px lightgray;
+}
+
+.list-horz a:hover {
+    text-decoration: none;
+    border-bottom: solid 1px black;
 }
